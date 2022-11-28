@@ -1,7 +1,6 @@
 import "animate.css";
 import { Col, Container, Row, Tab } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -13,16 +12,19 @@ export const Projects = () => {
       title: "Crown Clothing E-Commerce",
       description: "Ecommerce - React, TypeScript, Redux, Firebase",
       imgUrl: projImg1,
+      siteUrl: "https://rainbow-elf-b7ce8e.netlify.app",
     },
     {
       title: "Instagram Clone",
       description: "React, Redux, Firebase",
       imgUrl: projImg2,
+      siteUrl: "https://spontaneous-cranachan-46be28.netlify.app",
     },
     {
       title: "Hotel Management System",
       description: "Java, MySQL",
       imgUrl: projImg3,
+      siteUrl: "https://github.com/mhussein06/HMS",
     },
   ];
   return (
@@ -66,7 +68,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   );
 };
