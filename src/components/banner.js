@@ -56,7 +56,7 @@ export const Banner = () => {
               with React and redux. I'm currently learning typscript as well and
               look forward to increasing my knowledge. Other languages I'm
               proficient with include, Java, and MySQL. My hobbies reading,
-              playing video games, and critiquing anything I have little knowledge
+              playing video games, and critiquing things I have little knowledge
               about. I'm currently looking for an entry level front-end development position
               where I can apply what I know in the real world, and gain new experiences.
             </p>
