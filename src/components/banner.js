@@ -48,17 +48,18 @@ export const Banner = () => {
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
               {`Hi I'm Mahad Hussein `}
-              
+
               <span className="wrap">{text}</span>
             </h1>
             <p>
               I'm an avid web developer living in St. Paul, MN. I mainly work
-              with React and redux. I'm currently learning typscript as well and
-              look forward to increasing my knowledge. Other languages I'm
-              proficient with include, Java, and MySQL. My hobbies reading,
-              playing video games, and critiquing things I have little knowledge
-              about. I'm currently looking for an entry level front-end development position
-              where I can apply what I know in the real world, and gain new experiences.
+              with Javascript and the React library. I'm currently learning
+              typscript as well in order to write more safe and secure
+              applications. Other languages I'm proficient with include, Java,
+              and MySQL. My hobbies coding, reading fantasy books, playing video
+              games, and occasionally cookinh. I'm currently looking for an
+              entry level front-end development position. Please reach out to me
+              if you have an opportunity for me or to simply connect!
             </p>
             <button onClick={() => console.log("connect")}>
               Let's Connect <ArrowRightCircle size={25} />
