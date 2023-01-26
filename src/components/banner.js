@@ -47,15 +47,15 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hi I'm Mahad Hussein `}
-
+              {`Hi I'm Mahad Hussein`}
+            <br></br>
               <span className="wrap">{text}</span>
             </h1>
             <p>
               I'm an avid web developer living in St. Paul, MN. I mainly work
               with Javascript and the React library. I'm currently learning
               typscript as well in order to write more safe and secure
-              applications. Other languages I'm proficient with include, Java,
+              applications. Other languages I'm proficient in include, Java,
               and MySQL. My hobbies coding, reading fantasy books, playing video
               games, and occasionally cookinh. I'm currently looking for an
               entry level front-end development position. Please reach out to me
